@@ -1,9 +1,9 @@
 cask "esploro" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.9.0"
-  sha256 arm:   "d5593a44685ad059cb4fa64ed674eb911632aab36719c9125ec74900cc82bba5",
-         intel: "6cf1818f9a73b23078e02e9e4f8426aee8d269a375b04a8c3b010e4e8e19a03f"
+  version "0.9.1"
+  sha256 arm:   "51afd5d11611999442522a4053c48f6fee61b0c8c8fec1e2244f30e99422d4e4",
+         intel: "a8432419e5e8cb83d5814a2ab4ed02a8ca7fe70580bc7d85a228884f188423bb"
 
   url "https://github.com/matija/esploro/releases/download/#{version}/Esploro_#{version}_#{arch}.dmg",
       verified: "github.com/matija/esploro/"
